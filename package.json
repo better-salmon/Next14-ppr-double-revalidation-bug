@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "backend": "node backend/backend.mjs",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "canary",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.4.5",
+    "@types/react": "18.2.18",
+    "fastify": "^4.24.3",
+    "pino": "^8.16.1",
+    "pino-pretty": "^10.2.3",
+    "typescript": "5.1.3"
+  }
+}
